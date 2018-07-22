@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.elisp.mymovies">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/movie"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+    <activity android:name=".SplashActivity" android:theme="@style/SplashTheme">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+
+        </intent-filter>
+
+    </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Explore"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+
+        <activity
+            android:name=".LogInActivity"
+            android:label="Login" />
+        <activity
+            android:name=".PersonDetails"
+            android:label="Person Details" />
+        <activity
+            android:name=".MovieDetails"
+            android:label="Movie Details" />
+        <activity
+            android:name=".ShowAllCrew"
+            android:label="Crew" />
+
+        <activity
+            android:name=".People"
+            android:label="@string/title_activity_people"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Favourites"
+            android:label="@string/title_activity_favourites"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Rated"
+            android:label="@string/title_activity_rated"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WatchList"
+            android:label="@string/title_activity_watch_list"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

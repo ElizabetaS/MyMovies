@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyMovies</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_people">People</string>
+    <string name="check_internet_title" translatable="false">Connection failed</string>
+    <string name="check_internet_message" translatable="false">Please check your connection settings</string>
+    <string name="check_internet_settings" translatable="false">Retry</string>
+    <string name="check_internet_cancel" translatable="false">Cancel</string>
+    <string name="title_activity_location" translatable="false">Map</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="comments" translatable="false">COMMENTS</string>
+    <string name="all" translatable="false">All</string>
+    <string name="hostname_could_not_be_found" translatable="false">Poor internet connection is not allowing you to log in</string>
+    <string name="error">Error!</string>
+    <string name="error_msg">An error has happened.</string>
+    <string name="title_activity_favourites">Favourites</string>
+    <string name="title_activity_rated">Rated</string>
+    <string name="title_activity_watch_list">WatchList</string>
+</resources>
